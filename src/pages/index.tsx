@@ -1,8 +1,8 @@
 import * as React from 'react';
 
+import RichTextEditor from '@/components/editor/RichTextEditor';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
-import RichTextEditor from '@/components/editor/RichTextEditor';
 
 /**
  * SVGR Support
@@ -11,7 +11,6 @@ import RichTextEditor from '@/components/editor/RichTextEditor';
  * You can override the next-env if the type is important to you
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
-import Vercel from '~/svg/Vercel.svg';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
